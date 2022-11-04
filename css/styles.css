@@ -1,0 +1,115 @@
+body {
+
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 2rem;
+}
+
+.attribution {
+    padding: 5% 17%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    padding-top: 5%;
+}
+
+.preview-box {
+
+    padding: 5% 3% 25% 3%;
+    line-height: 2;
+    text-align: left;
+    position: relative;
+
+}
+
+.preview-box img {
+    margin-bottom: 2rem;
+}
+
+.preview-box .btn {
+
+    position: absolute;
+    bottom: 10%;
+    left: 26%;
+
+}
+
+.preview-box .btn-outline-light {
+    border-radius: 50px;
+}
+
+.preview-sedans {
+
+    background-color: hsl(31, 77%, 52%)
+}
+
+.preview-suvs {
+
+    background-color: hsl(184, 100%, 22%);
+}
+
+.preview-lux {
+
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media(max-width:375px) {
+
+    .container {
+
+        padding-top: 0;
+    }
+
+    body {
+
+        text-align: left;
+    }
+
+
+    .preview-sedans .btn-outline-light {
+
+        color: hsl(31, 77%, 52%);
+    }
+}
+
+@media(max-width:1440px) {
+
+    .btn-outline-light {
+
+        background-color: #FFF;
+        color: hsl(0, 0%, 95%);
+    }
+
+    .preview-sedans .btn-outline-light {
+
+        color: hsl(31, 77%, 52%);
+    }
+
+    .preview-suvs .btn-outline-light {
+
+
+        color: hsl(184, 100%, 22%);
+
+    }
+
+    .preview-lux .btn-outline-light {
+
+        color: hsl(179, 100%, 13%);
+    }
+
+}
